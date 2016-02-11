@@ -42,6 +42,8 @@
     <Compile Include="Enemy.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="GameManager.cs" />
+    <Compile Include="GameObject.cs" />
+    <Compile Include="InputManager.cs" />
     <Compile Include="LevelScene.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
@@ -61,10 +63,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\beach_sand_woa3.png" />
-    <Content Include="Content\golem-walk.png" />
-    <Content Include="Content\howl.png" />
-    <Content Include="Content\universal-lpc-sprite_male_01_full.png" />
+    <Content Include="Content\Tileset.png" />
+    <Content Include="Content\Map.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Golem.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Hellhound.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Alfred.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Icon.ico" />
   </ItemGroup>
   <ItemGroup>
