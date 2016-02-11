@@ -47,6 +47,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Scene.cs" />
+    <Compile Include="SceneManager.cs" />
     <Compile Include="Unit.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -60,6 +61,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\beach_sand_woa3.png" />
+    <Content Include="Content\golem-walk.png" />
+    <Content Include="Content\howl.png" />
+    <Content Include="Content\universal-lpc-sprite_male_01_full.png" />
     <Content Include="Icon.ico" />
   </ItemGroup>
   <ItemGroup>
