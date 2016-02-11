@@ -5,7 +5,14 @@ using System.Text;
 
 namespace Yggdrasil_The_Tree_of_Worlds
 {
-    class Player
+    class Player : Unit
     {
+        public Player()
+        {
+            health = 200;
+            attackPower = 20;
+
+            Name = "Alfred";
+        }
     }
 }
